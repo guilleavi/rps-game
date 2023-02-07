@@ -1,7 +1,12 @@
 import Container from "./components/Container/Container"
+import ScorePanel from "./components/ScorePanel/ScorePanel"
 
 const App = () => {
-  return <Container>Rock Paper Scissors Game</Container>
+  return (
+    <Container>
+      <ScorePanel />
+    </Container>
+  )
 }
 
 export default App
